@@ -145,6 +145,8 @@ countrys;
 
 ```
 
+### **Array.push**
+
 To avoiding `undefined` item. `push()` method can be used.
 
 ```js
@@ -246,14 +248,14 @@ The `length` property returns or sets the number of elements in an array.
 let len = countrys.length;
 
 
-console.log(len);
+console.log("length:", len);
 
 ```
 
 **Output**
 
 ```
- Bhutan
+length: 4
 
 ```
 
