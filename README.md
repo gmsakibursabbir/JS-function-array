@@ -1,8 +1,8 @@
-# JS-function-array
+JS-function-array
+-----
 
-## **Function**
 
----
+# **Function**
 
 A Function is a block of code that performs a specific task. And javascript has huge inbuilt functions.
 
@@ -78,9 +78,7 @@ Result: Operation Done
 
 ```
 
-## **Array**
-
----
+# **Array**
 
 An array in JavaScript is a type of global object that is used to store data. Arrays consist of an ordered collection or list containing zero or more data types, and use numbered indices starting from `0` to access specific items.
 
