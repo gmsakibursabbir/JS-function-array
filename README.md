@@ -161,7 +161,8 @@ countrys;
 
 ```
 
-### **Removing Item from Array**
+
+### **Array.splice**
 
 The `splice()` method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
@@ -179,6 +180,8 @@ countrys;
  ['Bangladesh', 'India', 'Nepal', 'Pakistan', 'Bhutan', 'NEW Nation']
 
 ```
+### **Array.slice**
+
 The `slice()` method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
 
 ```js
@@ -192,7 +195,7 @@ countrys.slice(1);
 
 ```
 
-
+### **Array.pop**
 
 The `pop()` method will remove the last item in an array.
 
@@ -210,7 +213,7 @@ countrys.pop();
 
 
 
-### **Array length**
+### **Array.fill**
 
 The `fill()` method returns an array by filling all elements with a specified value.
 
@@ -234,7 +237,7 @@ console.log(fruits);
 ```
 
 
-### **Array length**
+### **Array.length**
 
 The `length` property returns or sets the number of elements in an array.
 
@@ -300,7 +303,7 @@ Bhutan
 
 ```
 
-### **Callback with array.forEach**
+### **Callback with Array.forEach**
 
 ```JS
 // Define an array of numbers
