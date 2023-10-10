@@ -208,6 +208,55 @@ countrys.pop();
 ```
 
 
+
+
+### **Array length**
+
+The `fill()` method returns an array by filling all elements with a specified value.
+
+
+```js
+// defining an array 
+var fruits = ['Apple', 'Banana', 'Grape'];
+
+// filling every element of the array with 'Cherry'
+fruits.fill("Cherry");
+
+console.log(fruits);
+
+```
+
+**Output**
+
+```
+ [ 'Cherry', 'Cherry', 'Cherry' ]
+
+```
+
+
+### **Array length**
+
+The `length` property returns or sets the number of elements in an array.
+
+```js
+// find the length of the country array
+let len = countrys.length;
+
+
+console.log(len);
+
+```
+
+**Output**
+
+```
+ Bhutan
+
+```
+
+
+
+
 ### **Looping Array**
 
 We can `loop` through the entirety of the array with the for keyword, taking advantage of the length property.
@@ -286,3 +335,4 @@ Result: 4
 Result: 5
 
 ```
+

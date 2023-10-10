@@ -8,6 +8,13 @@ console.log(countrys);
 console.log(countrys.slice(1));
 console.log(countrys.pop());
 
+
+let len = countrys.length;
+
+
+console.log("length:", len);
+
+
 for (let i = 0; i < countrys.length; i++) {
     console.log(i, countrys[i]);
   }
@@ -46,3 +53,11 @@ function callbackFunction(number) {
 }
 
 mainFunction(callbackFunction);
+
+
+
+var fruits = ['Apple', 'Banana', 'Grape'];
+
+fruits.fill("Cherry");
+
+console.log(fruits);
